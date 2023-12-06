@@ -1,0 +1,10 @@
+[package]
+name = "continous-nns"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+micrograd = {git = "https://github.com/patrik-cihal/micrograd-rs" }
+rand = "0.8.5"
